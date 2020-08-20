@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" type="text/css" href="./scss/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Encontra y regala los mejores desayunos y meriendas de Buenos Aires, con packs armados o personalizados para vos!">
+	<meta name="keywords" content="DESAYUNOS, MERIENDAS, TAZAS, MATES, REGALO, CABA, TORTAS, ENTREGA, DELIVERY">
+	<title>Breaking Fast | Desayunos y Meriendas</title>
+</head>
+
+<body>
+
+	<!--- Nav Bar --->
+
+	<nav class="navbar navbar-expand-lg navbar-light menu">
+		<a class="menu-image" href="/index.html">
+			<img src="./media/breakingFast.png" class="menu__logo" alt="" loading="lazy">
+		</a>
+		<button class="navbar-toggler mr-auto" type="button" data-toggle="collapse" data-target="#navbarNav"
+			aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="./index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./views/desayunos.html">Desayunos</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./views/meriendas.html">Meriendas</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./views/tortas.html">Tortas</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="./views/matesytazas.html" id="navbarDropdownMenuLink" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Mates y Tazas
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: #FFEB99;">
+						<a class="dropdown-item" href="./views/matesytazas.html#mates1">Mates</a>
+						<a class="dropdown-item" href="./views/matesytazas.html#tazas1">Tazas</a>
+					</div>
+				<li class="nav-item">
+					<a class="nav-link" href="./views/contacto.html">Contacto</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./views/entregas.html">Entregas</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+
+	<!--- Mision --->
+	<section class="about__mision">
+		<div class="row">
+			<div class="col-sm-12 mx-auto text-center mt-3 mb-5 about__mision--img">
+				<div class="about__mision--title mb-3">
+					<h1> Breaking Fast </h1>
+				</div>
+				<img class="img-fluid about__mision--image" src="./media/pinkman.png" alt="header">
+				<div class="about__mision--subtitle">
+					<h2 class="mision" id="mision">Misión</h2>
+					<p class="mision">Nuestra Misión consiste en superar permanentemente las expectativas de nuestros
+						clientes ofreciéndoles calidad, surtido, servicio y el mejor precio posible.</p>
+					<span class="mision">Desayunos y Meriendas - Packs y Personalizados</span>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Division Bar -->
+
+	<div class="about__divimage"></div>
+
+
+
+	<!--- About Us --->
+	<div>
+		<h2 class="destacados">Acerca de Nosotros</h2>
+	</div>
+
+	<section class="about__us mt-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-6">
+					<h2> CUIDADO ALTAMENTE ADICTIVO!! </h2>
+					<p> Somos un emprendimiento familiar el cual busca apuntar a un público el cual esta dispuesto a
+						dejarse sorpender con los mejores productos y los sabores mas explosivos del mercado
+					</p>
+				</div>
+				<div class="col-12 col-md-6">
+					<img src="./media/backgroundbb.jpg" class="img-fluid" alt="BreakingFastImg">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Division Bar -->
+
+	<div class="about__divimage"></div>
+
+
+	<!--- Products --->
+
+	<div>
+		<h2 class="destacados">Nuestros Productos</h2>
+	</div>
+
+	<section class="about__product">
+		<div class="container-fluid row mx-auto">
+			<div class="row mx-auto text-center">
+				<div class="col-12 col-md-3 col-sm-6  mx-auto">
+					<div class="card mx-auto">
+						<img src="./media/desayunostemplate.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Desayunos</h5>
+							<p class="card-text">"Jesse we have to cook"</p>
+							<a href="./views/desayunos.html" class="btn btn-primary">Visitar</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-3 col-sm-6  mx-auto">
+					<div class="card mx-auto">
+						<img src="./media/meriendastemplate.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Meriendas</h5>
+							<p class="card-text">"I am the one who knocks"</p>
+							<a href="./views/meriendas.html" class="btn btn-primary">Visitar</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-3 col-sm-6  mx-auto">
+					<div class="card mx-auto">
+						<img src="./media/torta.png" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Tortas</h5>
+							<p class="card-text">"Say my name"</p>
+							<a href="./views/tortas.html" class="btn btn-primary">Visitar</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-3 col-sm-6  mx-auto">
+					<div class="card mx-auto myt">
+						<img src="./media/matesytazas.jpeg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Mates y Tazas</h5>
+							<p class="card-text">"Science B*tch.""</p>
+							<a href="./views/matesytazas.html" class="btn btn-primary">Visitar</a>
+						</div>
+					</div>
+				</div>
+			</div>
+	</section>
+
+	</div>
+
+	<!--- Division Bar --->
+
+	<div class="about__divimage"></div>
+
+
+	<!--- Destacados Background-->
+
+<div>
+	<h2 class="destacados">Destacados del Mes</h2>
+</div>
+
+<section class="grid-destacados" >
+
+<div class="about__destacados">
+	<a href="./views/desayunos.html"><img src="/media/desayunodestacado.jpg" alt="Desayuno_Destacado" width="15%"></a>
+	<span class="btn btn-primary">Desayuno Pinkman</span>
+</div>
+
+<div class="about__destacados">
+	<a href="./views/meriendas.html"><img src="/media/meriendadestacada.jpg" alt="Merienda_Destacada" width="15%"></a>
+	<span class="btn btn-primary">Merienda Walter White</span>
+</div>
+
+<div class="about__destacados">
+	<a href="./views/tortas.html"><img src="/media/tortadestacada.png" alt="Torta_Destacada" width="15%"></a>
+	<span class="btn btn-primary">Nutecake</span>
+</div>
+
+<div class="about__destacados">
+<a href="./views/matesytazas.html#mates1"><img src="/media/matedestacado.jpg" alt="Mate_Destacado" width="15%"></a>
+	<span class="btn btn-primary">Mate Valentino</span>
+</div>
+
+<div class="about__destacados">
+	<a href="./views/matesytazas.html#tazas1"><img src="/media/vasodestacado.jpg" alt="Vaso_Destacado " width="15%"></a>
+	<span class="btn btn-primary">Vaso Pink Bear</span>
+</div>
+</section>
+
+	<!--- Footer --->
+
+	<footer>
+		<div class="footer__top">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-3 col-sm-6 footer__top--segment-one .md-mb-30 .sm-mb-30">
+						<a class="menu-image" href="/index.html">
+						<img src="./media/breakingFast.png" class="header-image img-responsive" style="width: 100px;" alt="" loading="lazy">
+						</a>
+					</div>
+					<div class="col-12 col-md-3 col-sm-6  footer__top--segment-two .md-mb-30 .sm-mb-30">
+						<ul>
+							<a href="/index.html#mision">
+							<li>Mision</li>
+							</a>
+
+							<li>Carrito</li>
+
+							<li>Mi Cuenta</li>
+
+							<a href="./views/entregas.html#zonas">		
+								<li>Zona de Entrega</li>
+							</a>
+						</ul>
+					</div>
+					<div class="col-12 col-md-3 col-sm-6 footer__top--segment-three .md-mb-30 .sm-mb-30">
+						<ul>
+							<a class="cookies" href="./views/cookies.html">
+                                <li>Politica de Cookies</li>
+                                </a>
+                                <a class="cookies" href="./views/cookies.html#quality">
+                                <li>Politica de Calidad</li>
+                                </a>
+
+							<li>Pedidos</li>
+
+							<li>Detalles de la cuenta</li>
+						</ul>
+					</div>
+					<div class="col-12 col-md-3 col-sm-6  footer__top--segment-four .sm-mb-30">
+						<p> Nuestras Redes </p>
+						<i class="fa fa-facebook facebook"></i>
+						<i class="fa fa-instagram instagram"></i>
+						<i class="fa fa-whatsapp whatsapp"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+		<p class="footer__bottom--text">Todos los derechos reservados por &copy; BreakingFast.2020</p>
+	</footer>
+
+
+
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+	</script>
+</body>
+
+</html>

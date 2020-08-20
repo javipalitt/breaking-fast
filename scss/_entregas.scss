@@ -1,0 +1,32 @@
+$color-primary: #C17196;
+$color-secondary: #FFEFAF;
+
+.about__zonas{
+    margin-top: 3em;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+	color: $color-primary;
+}
+
+.backgroundEntrega{
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    height: 700px;
+    width: 1200px;
+    background-image: url(../media/zonadeentrega.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/** Media queries **/
+@media only screen and (max-width: 767px) {
+    .backgroundEntrega { 
+        background-image: url(../media/zonadeentrega.jpg); 
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

@@ -1,0 +1,50 @@
+$color-primary: #C17196;
+$color-secondary: #FFEFAF;
+
+.main__cookies{
+    margin-left: 2em;
+    h1{
+        margin-top: 1.45em; 
+        margin-bottom: 1em;         
+        font-size: 2em;
+        letter-spacing: 0.2em;
+        text-align: center;
+        color:$color-primary;
+    }
+    p{
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap; 
+        text-align: justify;
+    }
+    ul{
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap; 
+        text-align: justify; 
+    }
+    li{
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap; 
+        text-align: justify;
+    }
+    a{
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap; 
+        text-align: justify;
+    }
+    .end{
+        margin-bottom: 1em;         
+        font-size: 2em;
+        letter-spacing: 0.1em;
+        text-align: center;
+        color:$color-primary;
+        text-align: justify;
+    }
+}
