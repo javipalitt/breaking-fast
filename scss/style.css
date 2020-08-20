@@ -625,7 +625,7 @@ section .about__mision--subtitle span {
   display: -ms-grid;
   display: grid;
   grid-gap: 20px;
-  -ms-grid-columns: (1fr)[5];
+  -ms-grid-columns: (1fr) [5] ;
       grid-template-columns: repeat(5, 1fr);
 }
 
