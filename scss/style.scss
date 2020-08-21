@@ -213,10 +213,26 @@ $colors: (
       text-decoration: none;
       border-color: #f5f5f5; 
       font-size: 1.5em;
-      &:active{
+      &:hover{
+        background-color: $color-primary;
         text-decoration: #f5f5f5;
       }
+      &:active{
+        background-color: $color-primary !important ;
+        text-decoration: none;       
+      }
+      &:visited{
+        color: #f5f5f5;
+        background-color: $color-primary;
+        text-decoration: none;
+      }
+      &:link{
+        color: #f5f5f5;
+        background-color: $color-primary;
+        text-decoration: none;
+      }
     }
+
   }
 
   .destacados{
