@@ -476,10 +476,11 @@ nav .menu__logo {
 }
 
 nav .nav-link {
-  color: #C17196 !important;
+  padding: 0.8rem;
   text-align: center;
   font-size: 1em;
-  padding: 0.8rem;
+  color: #C17196 !important;
+  background-color: #FFEFAF;
 }
 
 nav .navbar-nav a {
@@ -491,6 +492,19 @@ nav .dropdown-menu {
   width: 100%;
   text-align: center;
   background-color: #FFEFAF !important;
+}
+
+nav .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+nav .dropdown-item:hover {
+  color: #C17196;
+  background-color: #FFEFAF;
+}
+
+nav .dropdown-item {
+  background-color: #FFEFAF;
 }
 
 section .about__mision--image {

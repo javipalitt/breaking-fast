@@ -61,8 +61,7 @@ $colors: (
     nav{
       color: $color-primary ;
       background-color: $color-secondary;
-      font-size: 1.5em;
-
+      font-size: 1.5em;    
       ul{
         @include clearFix; /** include scss **/
         width:100%;
@@ -81,22 +80,33 @@ $colors: (
       }
 
       .nav-link{
-        color: $color-primary !important;
+        padding: 0.8rem;
         text-align: center;
         font-size: 1em;
-          padding: 0.8rem;
+        color: $color-primary !important;
+        background-color: $color-secondary;
       }    
 
       .navbar-nav a {
         margin-top: 3em;
-        color: $color-primary; }
+        color: $color-primary; 
+      }
         .dropdown-menu{
           width: 100%;
           text-align: center;
           background-color: #FFEFAF !important;
         }
+        .dropdown:hover .dropdown-menu{
+          display: block;
+        }
+        .dropdown-item:hover{
+          color: $color-primary;
+          background-color: $color-secondary;
+        }
+        .dropdown-item{
+          background-color: $color-secondary;
+        }
       
-
     }
 
     section{      
