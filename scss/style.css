@@ -370,6 +370,7 @@
 }
 
 .main__cookies h1 {
+  font-family: 'Heebo';
   margin-top: 1.45em;
   margin-bottom: 1em;
   font-size: 2em;
@@ -411,12 +412,12 @@
 }
 
 .main__cookies .end {
+  font-family: 'Heebo';
   margin-bottom: 1em;
   font-size: 2em;
   letter-spacing: 0.1em;
   text-align: center;
   color: #C17196;
-  text-align: justify;
 }
 
 @font-face {
@@ -625,7 +626,7 @@ section .about__mision--subtitle span {
   display: -ms-grid;
   display: grid;
   grid-gap: 20px;
-  -ms-grid-columns: (1fr) [5] ;
+  -ms-grid-columns: (1fr)[5];
       grid-template-columns: repeat(5, 1fr);
 }
 
