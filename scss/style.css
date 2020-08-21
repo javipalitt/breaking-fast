@@ -223,6 +223,11 @@
   font-size: 3em;
 }
 
+.about__myt p {
+  margin-top: 2em;
+  font-size: 1.3em;
+}
+
 .flex__container {
   margin: 20px;
   display: -webkit-box;
@@ -382,32 +387,32 @@
 .main__cookies p {
   font-family: 'Heebo';
   font-style: normal;
+  font-size: 1.2em;
   font-weight: 500;
-  font-display: swap;
   text-align: justify;
 }
 
 .main__cookies ul {
   font-family: 'Heebo';
   font-style: normal;
+  font-size: 1.2em;
   font-weight: 500;
-  font-display: swap;
   text-align: justify;
 }
 
 .main__cookies li {
   font-family: 'Heebo';
   font-style: normal;
+  font-size: 1em;
   font-weight: 500;
-  font-display: swap;
   text-align: justify;
 }
 
 .main__cookies a {
   font-family: 'Heebo';
   font-style: normal;
+  font-size: 1em;
   font-weight: 500;
-  font-display: swap;
   text-align: justify;
 }
 
@@ -568,17 +573,19 @@ section .about__mision--subtitle span {
 }
 
 .about__us h2 {
+  margin-top: 2.60em;
+  padding: 0.8rem;
   font-size: 1.6em;
   text-align: center;
-  margin-top: 2.50em;
-  padding: 0.8rem;
+  word-spacing: 0.5em;
 }
 
 .about__us p {
-  font-size: 1.6em;
-  text-align: center;
+  margin-top: 2em;
   padding: 0.8rem;
-  margin-top: 2.50em;
+  font-size: 1.6em;
+  text-align: justify;
+  word-spacing: 0.2em;
 }
 
 .about__product {
@@ -587,10 +594,14 @@ section .about__mision--subtitle span {
 
 .about__product h5 {
   font-size: 1.5em;
+  letter-spacing: 0.2em;
+  color: #FFEFAF;
 }
 
 .about__product p {
   font-size: 1.13em;
+  letter-spacing: 0.04em;
+  color: #FFEFAF;
 }
 
 .about__product .card {
