@@ -475,7 +475,7 @@ nav li {
 }
 
 nav .menu__logo {
-  height: 8.333em;
+  height: 6.55em;
   padding-right: 1em;
   padding-left: 0.5em;
 }
@@ -718,10 +718,9 @@ section .about__mision--subtitle span {
 }
 
 .footer__top--segment-one img {
-  width: 100%;
-  height: 8em;
-  margin-top: 7em;
+  margin-top: 5.9em;
   margin-bottom: 5em;
+  width: 75%;
 }
 
 .footer__top--segment-two ul {
@@ -822,7 +821,7 @@ section .about__mision--subtitle span {
     padding: 50px 0;
   }
   .footer__top--segment-one img {
-    height: 8em;
+    width: 100%;
     margin-top: 0em;
     margin-bottom: 2em;
     margin-left: 8em;
