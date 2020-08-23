@@ -34,12 +34,22 @@ $colors: (
 @import "./cookies";
 
 @font-face {
-    font-family: 'Galada';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: local("Galada Regular"), local("Galada-Regular"), url(https://fonts.gstatic.com/s/galada/v5/H4cmBXyGmcjXlUXO9SY_.woff2) format("woff2");
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/worksans/v8/QGYsz_wNahGAdqQ43Rh_fKDp.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/worksans/v8/QGYsz_wNahGAdqQ43Rh_fKDp.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
   
   @font-face {
     font-family: 'Heebo';
@@ -50,7 +60,7 @@ $colors: (
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
   
   * {
-    font-family: "Galada", sans-serif;
+    font-family: "Work Sans", sans-serif;
   }
 
   
@@ -64,44 +74,46 @@ $colors: (
       font-size: 1.5em;    
       ul{
         @include clearFix; /** include scss **/
-        width:100%;
+       width: 100%;
       }
 
       li{
-        float: left;
-        width: (100% / 7); /** math operator **/
+        float: left;   
+        margin-left: 3em;     
+
       }
       
       .menu__logo{
-        height: 6.55em;
-          padding-right: 1em;
-          padding-left: 0.5em;
-        
+        height: 6em;  
+        margin-left: 2em;      
       }
 
       .nav-link{
-        padding: 0.8rem;
         text-align: center;
         font-size: 1em;
         color: $color-primary !important;
         background-color: $color-secondary;
+        &:hover{
+          background-color: #FFEB99;;
+          border-radius: 1em;
+        }
       }    
 
       .navbar-nav a {
-        margin-top: 3em;
+        margin-top: 1em;
         color: $color-primary; 
       }
         .dropdown-menu{
           width: 100%;
           text-align: center;
-          background-color: #FFEFAF !important;
+          background-color: $color-secondary !important;
         }
         .dropdown:hover .dropdown-menu{
           display: block;
         }
         .dropdown-item:hover{
           color: $color-primary;
-          background-color: $color-secondary;
+          background-color: #FFEB99;
         }
         .dropdown-item{
           background-color: $color-secondary;
@@ -112,6 +124,7 @@ $colors: (
     section{      
       .about__mision{
         &--image{
+          width: 100vh;
             box-shadow:
             10px 26.4px 5.6px -47px rgba(0, 0, 0, 0.359),
             10px 39px 16.2px -47px rgba(0, 0, 0, 0.43),
@@ -119,7 +132,7 @@ $colors: (
         }
         &--title{
           margin-top: 1.45em;         
-          font-size: 3em;
+          font-size: 3em !important;
           letter-spacing: 0.2em;
           color:$color-primary;
         }
@@ -129,9 +142,9 @@ $colors: (
           text-align: center;
           line-height: 2em;
           font-size: 1.1rem;
-          h2{
+          h3{
             margin-top: 1em;
-            font-size: 2.5em;
+            font-size: 2em;
             letter-spacing: 0.2em;
           }
           h4{
@@ -185,11 +198,10 @@ $colors: (
     margin-top: 4em;
     h5{
       font-size: 1.5em;
-      letter-spacing: 0.2em;
       color: $color-secondary;
     }
     p{
-      font-size: 1.13em;
+      font-size: 0.92em;
       letter-spacing: 0.04em;
       color: $color-secondary;
     }
@@ -251,8 +263,8 @@ $colors: (
 
   .grid-destacados {
     display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(5, 1fr)
+    grid-gap: 1em;
+    grid-template-columns: repeat(3, 1fr)
   }
   
   .about__destacados {
@@ -263,13 +275,6 @@ $colors: (
       display: inline-block;
       height: 200px;
       width: 200px;
-      text-align: center;
-      transition: .3s ease;
-    }
-    img:hover{
-      transform: scale(1.5);
-      -webkit-transform: scale(1.5);
-      -ms-transform: scale(1.5);
     }
     span{
       margin-top: 2em;
@@ -278,6 +283,7 @@ $colors: (
       border-color: #f5f5f5;
       text-decoration: none;
       font-size: 1.4em;
+      display: inline-block;
     }
   }
 
@@ -330,6 +336,30 @@ $colors: (
    }
 
    /** media queries **/
+
+   @media only screen and (min-width: 1030px) and (max-width: 1366px) {
+    nav{
+      color: $color-primary ;
+      background-color: $color-secondary;
+      font-size: 1.3em;    
+      ul{
+        @include clearFix; /* include scss */
+       width: 100%;
+      }
+
+      li{
+        float: left;   
+        margin-left: 1em;     
+
+      }
+      
+      .menu__logo{
+        height: 6em;  
+        margin-left: 2em;      
+      }
+    }
+   }
+
 
    @media only screen and (min-width: 768px) and (max-width: 991px) {
     .md-mb-30 {

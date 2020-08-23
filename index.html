@@ -2,18 +2,19 @@
 <html lang="en">
 
 <head>
-	<link rel="stylesheet" type="text/css" href="./scss/style.css">
-	<link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Encontra y regala los mejores desayunos y meriendas de Buenos Aires, con packs armados o personalizados para vos!">
+	<meta name="keywords" content="DESAYUNOS, MERIENDAS, TAZAS, MATES, REGALO, CABA, TORTAS, ENTREGA, DELIVERY">
+	<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
 		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
 		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Encontra y regala los mejores desayunos y meriendas de Buenos Aires, con packs armados o personalizados para vos!">
-	<meta name="keywords" content="DESAYUNOS, MERIENDAS, TAZAS, MATES, REGALO, CABA, TORTAS, ENTREGA, DELIVERY">
+	<link rel="stylesheet" type="text/css" href="./scss/style.css">
+
 	<title>Breaking Fast | Desayunos y Meriendas</title>
 </head>
 
@@ -21,7 +22,7 @@
 
 	<!--- Nav Bar --->
 
-	<nav class="navbar navbar-expand-lg navbar-light menu">
+	<nav class="navbar sticky-top navbar-expand-lg navbar-light menu">
 		<a class="menu-image" href="./index.html">
 			<img src="./media/breakingFast.png" class="menu__logo" alt="logo_breaking_fast" loading="lazy">
 		</a>
@@ -70,21 +71,122 @@
 				<div class="about__mision--title mb-3">
 					<h1> Breaking Fast </h1>
 				</div>
-				<img class="img-fluid about__mision--image" src="./media/pinkman.png" alt="header_image">
+				<img class="img-fluid about__mision--image" src="./media/imgheader.jpg" alt="header_image">
 				<div class="about__mision--subtitle">
-					<h2 class="mision" id="mision">Misión</h2>
-					<p class="mision">Nuestra Misión consiste en superar permanentemente las expectativas de nuestros
-						clientes ofreciéndoles calidad, surtido, servicio y el mejor precio posible.</p>
-					<span class="mision">Desayunos y Meriendas - Packs y Personalizados</span>
+					<h3 class="mision" id="mision">Desayunos y Meriendas - Packs y Personalizados</h3>
 				</div>
 			</div>
 		</div>
 	</section>
 
+		<!-- Division Bar -->
+
+		<div class="about__divimage" alt="navigation_bar"></div>
+
+
+		<!--- Products --->
+	
+		<div>
+			<h2 class="destacados">Nuestros Productos</h2>
+		</div>
+	
+		<section class="about__product">
+			<div class="container-fluid row mx-auto">
+				<div class="row mx-auto text-center">
+					<div class="col-12 col-md-3 col-sm-6  mx-auto">
+						<div class="card mx-auto">
+							<img src="./media/desayunostemplate.jpg" class="card-img-top" alt="desayuno_image">
+							<div class="card-body">
+								<h5 class="card-title">Desayunos</h5>
+								<p class="card-text">"Jesse we have to cook"</p>
+								<a href="./views/desayunos.html" class="btn">Visitar</a>
+							</div>
+						</div>
+					</div>
+	
+					<div class="col-12 col-md-3 col-sm-6  mx-auto">
+						<div class="card mx-auto">
+							<img src="./media/meriendastemplate.jpg" class="card-img-top" alt="meriendas_image">
+							<div class="card-body">
+								<h5 class="card-title">Meriendas</h5>
+								<p class="card-text">"I am the one who knocks"</p>
+								<a href="./views/meriendas.html" class="btn ">Visitar</a>
+							</div>
+						</div>
+					</div>
+	
+					<div class="col-12 col-md-3 col-sm-6  mx-auto">
+						<div class="card mx-auto">
+							<img src="./media/torta.png" class="card-img-top" alt="torta_image">
+							<div class="card-body">
+								<h5 class="card-title">Tortas</h5>
+								<p class="card-text">"Say my name"</p>
+								<a href="./views/tortas.html" class="btn ">Visitar</a>
+							</div>
+						</div>
+					</div>
+	
+					<div class="col-12 col-md-3 col-sm-6  mx-auto">
+						<div class="card mx-auto myt">
+							<img src="./media/matesytazas.jpeg" class="card-img-top" alt="mates_y_tazas_image">
+							<div class="card-body">
+								<h5 class="card-title">Mates y Tazas</h5>
+								<p class="card-text">"Science B*tch."</p>
+								<a href="./views/matesytazas.html" class="btn">Visitar</a>
+							</div>
+						</div>
+					</div>
+				</div>
+		</section>
+	
+		</div>
+	
+		<!--- Division Bar --->
+	
+		<div class="about__divimage"></div>
+	
+	
+		<!--- Destacados Background-->
+	
+	<div>
+		<h2 class="destacados">Destacados del Mes</h2>
+	</div>
+	
+	<section class="grid-destacados" >
+	
+	<div class="about__destacados">
+		<a href="./views/desayunos.html#pinkman">
+			<img src="./media/desayunodestacado.jpg" alt="desayuno_Destacado" width="15%">
+		</a>
+		<a href="./views/desayunos.html#pinkman">
+			<span class="btn btn-primary">Desayuno Pinkman</span>
+		</a>
+	</div>
+	
+	<div class="about__destacados">
+		<a href="./views/meriendas.html#walter_white">
+			<img src="./media/meriendadestacada.jpg" alt="merienda_Destacada" width="15%">
+		</a>
+		<a href="./views/meriendas.html#walter_white">
+			<span class="btn btn-primary">Merienda Walter White</span>
+		</a>	
+	</div>
+	
+	<div class="about__destacados">
+		<a href="./views/tortas.html#nutecake">
+			<img src="./media/tortadestacada.png" alt="torta_Destacada" width="15%">
+		</a>
+		<a href="./views/tortas.html#nutecake">
+			<span class="btn btn-primary">Nutecake</span>
+		</a>
+	</div>
+	
+	</section>
+
+
 	<!-- Division Bar -->
 
 	<div class="about__divimage"></div>
-
 
 
 	<!--- About Us --->
@@ -108,126 +210,7 @@
 		</div>
 	</section>
 
-	<!-- Division Bar -->
 
-	<div class="about__divimage" alt="navigation_bar"></div>
-
-
-	<!--- Products --->
-
-	<div>
-		<h2 class="destacados">Nuestros Productos</h2>
-	</div>
-
-	<section class="about__product">
-		<div class="container-fluid row mx-auto">
-			<div class="row mx-auto text-center">
-				<div class="col-12 col-md-3 col-sm-6  mx-auto">
-					<div class="card mx-auto">
-						<img src="./media/desayunostemplate.jpg" class="card-img-top" alt="desayuno_image">
-						<div class="card-body">
-							<h5 class="card-title">Desayunos</h5>
-							<p class="card-text">"Jesse we have to cook"</p>
-							<a href="./views/desayunos.html" class="btn">Visitar</a>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-12 col-md-3 col-sm-6  mx-auto">
-					<div class="card mx-auto">
-						<img src="./media/meriendastemplate.jpg" class="card-img-top" alt="meriendas_image">
-						<div class="card-body">
-							<h5 class="card-title">Meriendas</h5>
-							<p class="card-text">"I am the one who knocks"</p>
-							<a href="./views/meriendas.html" class="btn ">Visitar</a>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-12 col-md-3 col-sm-6  mx-auto">
-					<div class="card mx-auto">
-						<img src="./media/torta.png" class="card-img-top" alt="torta_image">
-						<div class="card-body">
-							<h5 class="card-title">Tortas</h5>
-							<p class="card-text">"Say my name"</p>
-							<a href="./views/tortas.html" class="btn ">Visitar</a>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-12 col-md-3 col-sm-6  mx-auto">
-					<div class="card mx-auto myt">
-						<img src="./media/matesytazas.jpeg" class="card-img-top" alt="mates_y_tazas_image">
-						<div class="card-body">
-							<h5 class="card-title">Mates y Tazas</h5>
-							<p class="card-text">"Science B*tch."</p>
-							<a href="./views/matesytazas.html" class="btn">Visitar</a>
-						</div>
-					</div>
-				</div>
-			</div>
-	</section>
-
-	</div>
-
-	<!--- Division Bar --->
-
-	<div class="about__divimage"></div>
-
-
-	<!--- Destacados Background-->
-
-<div>
-	<h2 class="destacados">Destacados del Mes</h2>
-</div>
-
-<section class="grid-destacados" >
-
-<div class="about__destacados">
-	<a href="./views/desayunos.html#pinkman">
-		<img src="./media/desayunodestacado.jpg" alt="desayuno_Destacado" width="15%">
-	</a>
-	<a href="./views/desayunos.html#pinkman">
-		<span class="btn btn-primary">Desayuno Pinkman</span>
-	</a>
-</div>
-
-<div class="about__destacados">
-	<a href="./views/meriendas.html#walter_white">
-		<img src="./media/meriendadestacada.jpg" alt="merienda_Destacada" width="15%">
-	</a>
-	<a href="./views/meriendas.html#walter_white">
-		<span class="btn btn-primary">Merienda Walter White</span>
-	</a>	
-</div>
-
-<div class="about__destacados">
-	<a href="./views/tortas.html#nutecake">
-		<img src="./media/tortadestacada.png" alt="torta_Destacada" width="15%">
-	</a>
-	<a href="./views/tortas.html#nutecake">
-		<span class="btn btn-primary">Nutecake</span>
-	</a>
-</div>
-
-<div class="about__destacados">
-	<a href="./views/matesytazas.html#mates1">
-		<img src="./media/matedestacado.png" alt="mate_Destacado" width="15%">
-	</a>
-	<a href="./views/matesytazas.html#mates1">
-		<span class="btn btn-primary">Mate Valentino</span>
-	</a>
-</div>
-
-<div class="about__destacados">
-	<a href="./views/matesytazas.html#tazas1">
-		<img src="./media/vasodestacado.jpg" alt="vaso_Destacado " width="15%">
-	</a>
-	<a href="./views/matesytazas.html#tazas1">
-	<span class="btn btn-primary">Vaso Pink Cup</span>
-	</a>
-</div>
-</section>
 
 	<!--- Footer --->
 
