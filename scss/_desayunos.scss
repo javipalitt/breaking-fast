@@ -25,6 +25,27 @@ $color-secondary: #FFEFAF;
     }
 }
 
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 50% !important;
+    bottom: 0;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 50px !important;
+    color: #fff;
+    text-align: center;
+    opacity: .5;
+    transition: opacity .15s ease;
+    height: 50px;
+    border-radius: 1em;
+    margin: 0px 1em;
+}
+
 /** media queries **/
 
 @media only screen and (max-width: 767px) {

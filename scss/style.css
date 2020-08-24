@@ -41,6 +41,31 @@
           text-decoration: #f5f5f5;
 }
 
+.carousel-control-next, .carousel-control-prev {
+  position: absolute;
+  top: 50% !important;
+  bottom: 0;
+  z-index: 1;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+          align-items: center;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  width: 50px !important;
+  color: #fff;
+  text-align: center;
+  opacity: .5;
+  -webkit-transition: opacity .15s ease;
+  transition: opacity .15s ease;
+  height: 50px;
+  border-radius: 1em;
+  margin: 0px 1em;
+}
+
 /** media queries **/
 @media only screen and (max-width: 767px) {
   .carousel__main {
@@ -480,6 +505,7 @@ nav ul:after {
 nav li {
   float: left;
   margin-left: 3em;
+  font-weight: 600;
 }
 
 nav .menu__logo {
@@ -530,7 +556,7 @@ section .about__mision--image {
 }
 
 section .about__mision--title {
-  margin-top: 1.45em;
+  margin-top: 0.2em;
   font-size: 3em !important;
   letter-spacing: 0.2em;
   color: #C17196;
@@ -545,13 +571,12 @@ section .about__mision--subtitle {
 }
 
 section .about__mision--subtitle h3 {
-  margin-top: 1em;
   font-size: 2em;
   letter-spacing: 0.2em;
 }
 
 section .about__mision--subtitle h4 {
-  margin-top: 1em;
+  margin-top: 0.5em;
   font-size: 1.4em;
   letter-spacing: 0.1em;
 }
@@ -579,13 +604,11 @@ section .about__mision--subtitle span {
 .about__us img {
   height: 25em;
   margin-left: 10em;
-  margin-top: 2.75em;
   -webkit-box-shadow: 10px 30.4px 5.6px -47px rgba(0, 0, 0, 0.359), 10px 50px 16.2px -47px rgba(0, 0, 0, 0.43);
           box-shadow: 10px 30.4px 5.6px -47px rgba(0, 0, 0, 0.359), 10px 50px 16.2px -47px rgba(0, 0, 0, 0.43);
 }
 
 .about__us h2 {
-  margin-top: 2.60em;
   padding: 0.8rem;
   font-size: 1.6em;
   text-align: center;
@@ -593,7 +616,6 @@ section .about__mision--subtitle span {
 }
 
 .about__us p {
-  margin-top: 2em;
   padding: 0.8rem;
   font-size: 1.6em;
   text-align: justify;
@@ -616,7 +638,7 @@ section .about__mision--subtitle span {
 }
 
 .about__product .card {
-  border: 1px;
+  border: 1px solid rgba(0, 0, 0, 0.105);
 }
 
 .about__product .card-body {
@@ -715,6 +737,7 @@ section .about__mision--subtitle span {
   color: #C17196;
   text-align: left;
   font-size: 1.3em;
+  font-weight: 600;
   list-style: none;
   line-height: 2.2em;
   border-bottom: 1px solid #C17196;
@@ -738,11 +761,16 @@ section .about__mision--subtitle span {
 
 .footer__top--segment-four {
   font-size: 1.7em;
+  font-weight: 600;
   color: #C17196;
   text-align: center;
   margin-top: 2.7em;
   border-bottom: 1px solid #C17196;
   /** include scss **/
+}
+
+.footer__top--segment-four p {
+  margin-top: 0.3em;
 }
 
 .footer__top--segment-four:after {
@@ -766,6 +794,8 @@ section .about__mision--subtitle span {
   line-height: 6.25em;
   color: #C17196;
   background: #000;
+  -webkit-margin-after: 0em;
+          margin-block-end: 0em;
 }
 
 /** media queries **/
@@ -785,6 +815,7 @@ section .about__mision--subtitle span {
     clear: both;
   }
   nav li {
+    font-size: 0.865em;
     float: left;
     margin-left: 1em;
   }
@@ -792,6 +823,12 @@ section .about__mision--subtitle span {
     height: 6em;
     margin-left: 2em;
   }
+}
+
+.about__product p {
+  font-size: 0.893em;
+  letter-spacing: 0.04em;
+  color: #FFEFAF;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -815,10 +852,38 @@ section .about__mision--subtitle span {
 }
 
 @media only screen and (max-width: 767px) {
+  nav {
+    color: #C17196;
+    background-color: #FFEFAF;
+    font-size: 1.3em;
+  }
+  nav ul {
+    /* include scss */
+    width: 100%;
+  }
+  nav ul:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  nav li {
+    float: left;
+    margin-left: 1em;
+  }
+  nav .menu__logo {
+    height: 6em;
+    margin-left: 0em;
+  }
   .about__us img {
     margin-top: 2.5em;
     margin-left: 0px;
     width: 100%;
+  }
+  .about__us p {
+    padding: 0.8rem;
+    font-size: 1.6em;
+    text-align: center;
+    word-spacing: 0.2em;
   }
   .about__product img {
     margin-top: 2em;
@@ -849,10 +914,10 @@ section .about__mision--subtitle span {
     padding: 50px 0;
   }
   .footer__top--segment-one img {
-    width: 100%;
+    width: 50%;
     margin-top: 0em;
-    margin-bottom: 2em;
-    margin-left: 8em;
+    margin-bottom: 0em;
+    margin-left: 6em;
   }
   .footer__top--segment-four i {
     padding-left: 2.5em;
