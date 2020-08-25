@@ -392,6 +392,8 @@
 .about__form {
   margin-top: 2em;
   margin-left: 1.5em;
+  width: 450px;
+  margin: auto;
   letter-spacing: 0.2em;
   font-weight: 600;
   color: #C17196;
@@ -937,6 +939,11 @@ section .about__mision--subtitle span {
   nav .menu__logo {
     height: 6em;
     margin-left: 0em;
+  }
+  section .about__mision--subtitle h3 {
+    font-size: 2em;
+    letter-spacing: 0.2em;
+    text-align: center;
   }
   .about__us img {
     margin-top: 2.5em;
