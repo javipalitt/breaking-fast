@@ -392,7 +392,7 @@
 .about__form {
   margin-top: 2em;
   margin-left: 1.5em;
-  width: 450px;
+  width: 700px;
   margin: auto;
   letter-spacing: 0.2em;
   font-weight: 600;
@@ -418,32 +418,31 @@
 }
 
 .about__zonas {
-  margin-top: 3em;
+  margin-top: 1em;
   text-align: center;
-  font-weight: bold;
-  width: 100%;
   color: #C17196;
 }
 
+.about__zonas p {
+  font-size: 1.3em;
+}
+
 .backgroundEntrega {
-  margin: auto;
-  margin-bottom: 100px;
-  margin-top: 50px;
-  height: 700px;
-  width: 1200px;
-  background-image: url(../media/zonadeentrega.jpg);
+  height: 80vh;
+  background-image: url(../media/mapa.png);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 /** Media queries **/
 @media only screen and (max-width: 767px) {
   .backgroundEntrega {
-    background-image: url(../media/zonadeentrega.jpg);
-    width: 100%;
+    background-image: url(../media/mapa.png);
+    height: 50vh;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
   }
 }
 
@@ -844,6 +843,10 @@ section .about__mision--subtitle span {
 
 /** media queries **/
 @media only screen and (min-width: 1367px) and (max-width: 1920px) {
+  nav .menu__logo {
+    height: 6em;
+    margin-left: 6em;
+  }
   .about__destacados {
     text-align: center;
     padding: 1.5rem 2rem;
