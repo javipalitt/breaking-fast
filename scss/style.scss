@@ -2,9 +2,9 @@ $color-primary: #C17196;
 $color-secondary: #FFEFAF;
 
 $colors: (
-  instagram: #D16E8D,
-  facebook: #1939c7,
-  whatsapp: #49C4A3,
+  instagram: #e95181,
+  facebook: #4b69f0,
+  whatsapp: #13d654,
 );
 
 /** loop **/
@@ -85,7 +85,7 @@ $colors: (
       
       .menu__logo{
         height: 6em;  
-        margin-left: 2em;      
+        margin-left: 6em;      
       }
 
       .nav-link{
@@ -281,7 +281,7 @@ $colors: (
     li{
       color: $color-primary;
       text-align: left;
-      font-size: 1.3em;
+      font-size: 1.2em;
       font-weight: 600;
       list-style: none;
       line-height: 2.2em;

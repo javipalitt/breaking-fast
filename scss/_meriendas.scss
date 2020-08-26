@@ -16,14 +16,19 @@ $color-secondary: #FFEFAF;
     a {
         font-size: 1.45em;
         color: $color-primary;
-        background-color: $color-secondary;
         text-decoration: none;
         border-color: $color-primary; 
         &:active{
           text-decoration: $color-primary;
-        }
+          }
+          &:hover {
+            color: #fff;
+            background-color: #FFEB99;
+            border-color: #FFEB99 ;
+    }
     }
 }
+
 .carousel-control-next, .carousel-control-prev {
     position: absolute;
     top: 50% !important;
@@ -43,7 +48,9 @@ $color-secondary: #FFEFAF;
     height: 50px;
     border-radius: 1em;
     margin: 0px 1em;
+    background-color: $color-primary !important;
 }
+
 
 /** media queries **/
 

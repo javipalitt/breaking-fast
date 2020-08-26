@@ -1,14 +1,14 @@
 /** loop **/
 .instagram {
-  color: #D16E8D;
+  color: #e95181;
 }
 
 .facebook {
-  color: #1939c7;
+  color: #4b69f0;
 }
 
 .whatsapp {
-  color: #49C4A3;
+  color: #13d654;
 }
 
 /** mixin **/
@@ -41,6 +41,25 @@
           text-decoration: #f5f5f5;
 }
 
+.carousel__main a:hover {
+  color: #fff;
+  background-color: #D39CB6;
+  border-color: #D39CB6;
+}
+
+.carousel__main .about__list1 {
+  float: left;
+}
+
+.carousel__main .about__list-2 {
+  display: inline-block;
+}
+
+.carousel__main .btn {
+  float: left;
+  clear: both;
+}
+
 .carousel-control-next, .carousel-control-prev {
   position: absolute;
   top: 50% !important;
@@ -64,6 +83,7 @@
   height: 50px;
   border-radius: 1em;
   margin: 0px 1em;
+  background-color: #FFEFAF !important;
 }
 
 /** media queries **/
@@ -122,7 +142,6 @@
 .carousel__main--meriendas a {
   font-size: 1.45em;
   color: #C17196;
-  background-color: #FFEFAF;
   text-decoration: none;
   border-color: #C17196;
 }
@@ -130,6 +149,12 @@
 .carousel__main--meriendas a:active {
   -webkit-text-decoration: #C17196;
           text-decoration: #C17196;
+}
+
+.carousel__main--meriendas a:hover {
+  color: #fff;
+  background-color: #FFEB99;
+  border-color: #FFEB99;
 }
 
 .carousel-control-next, .carousel-control-prev {
@@ -155,6 +180,7 @@
   height: 50px;
   border-radius: 1em;
   margin: 0px 1em;
+  background-color: #C17196 !important;
 }
 
 /** media queries **/
@@ -246,6 +272,7 @@
   height: 50px;
   border-radius: 1em;
   margin: 0px 1em;
+  background-color: #FFEFAF !important;
 }
 
 /** media queries **/
@@ -561,7 +588,7 @@ nav li {
 
 nav .menu__logo {
   height: 6em;
-  margin-left: 2em;
+  margin-left: 6em;
 }
 
 nav .nav-link {
@@ -779,7 +806,7 @@ section .about__mision--subtitle span {
 .footer__top li {
   color: #C17196;
   text-align: left;
-  font-size: 1.3em;
+  font-size: 1.2em;
   font-weight: 600;
   list-style: none;
   line-height: 2.2em;
