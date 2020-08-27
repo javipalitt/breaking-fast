@@ -98,3 +98,13 @@ $color-secondary: #FFEFAF;
         }
     }
 }
+
+@media only screen and (min-width: 1030px) and (max-width: 1366px) {
+    .carousel__main{
+        li{
+            margin-top: 0.2em;
+            font-size: 1.133em;
+            color:$color-secondary;
+        }
+    }
+}

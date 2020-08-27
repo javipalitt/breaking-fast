@@ -123,6 +123,14 @@
   }
 }
 
+@media only screen and (min-width: 1030px) and (max-width: 1366px) {
+  .carousel__main li {
+    margin-top: 0.2em;
+    font-size: 1.133em;
+    color: #FFEFAF;
+  }
+}
+
 .carousel__main--meriendas {
   margin-top: 3em;
   background-color: #FFEFAF;
@@ -155,6 +163,19 @@
   color: #fff;
   background-color: #FFEB99;
   border-color: #FFEB99;
+}
+
+.carousel__main--meriendas .about__list1 {
+  float: left;
+}
+
+.carousel__main--meriendas .about__list-2 {
+  display: inline-block;
+}
+
+.carousel__main--meriendas .btn {
+  float: left;
+  clear: both;
 }
 
 .carousel-control-next, .carousel-control-prev {
@@ -217,6 +238,27 @@
   }
   .carousel__main--meriendas .btn {
     margin-left: 2.2em !important;
+  }
+  .carousel__main--meriendas .about__list1 {
+    float: left;
+  }
+  .carousel__main--meriendas .about__list-2 {
+    display: inline-block;
+  }
+  .carousel__main--meriendas .btn {
+    float: left;
+    clear: both;
+  }
+}
+
+@media only screen and (min-width: 1030px) and (max-width: 1366px) {
+  .carousel__main--meriendas li {
+    margin-top: 1em;
+    font-size: 1.133em;
+    color: #C17196;
+  }
+  .footer__top li {
+    font-size: 1em !important;
   }
 }
 

@@ -27,6 +27,16 @@ $color-secondary: #FFEFAF;
             border-color: #FFEB99 ;
     }
     }
+    .about__list1{
+        float: left;
+    }
+    .about__list-2{
+        display: inline-block;
+    }
+    .btn{
+        float: left;
+        clear: both;
+    }
 }
 
 .carousel-control-next, .carousel-control-prev {
@@ -86,5 +96,28 @@ $color-secondary: #FFEFAF;
         .btn{
             margin-left: 2.2em !important;
         }
+        .about__list1{
+            float: left;
+        }
+        .about__list-2{
+            display: inline-block;
+        }
+        .btn{
+            float: left;
+            clear: both;
+        }
+    }
+}
+
+@media only screen and (min-width: 1030px) and (max-width: 1366px) {
+    .carousel__main--meriendas{
+        li{
+            margin-top: 1em;
+            font-size: 1.133em ;
+            color:$color-primary;
+        }
+    }
+    .footer__top li{
+        font-size: 1em !important;
     }
 }
