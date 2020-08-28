@@ -82,7 +82,7 @@
 					<div class="container d-flex align-items-center" style="min-height:100vh">
 						<div class="row align-items-center">
 							<div class="col-12 col-md-4 offset-md-1 mb-4 mb-md-0">
-								<img alt="desayuno_Aine" class="img-fluid" src="../media/desayunoaine.jpg">
+								<img alt="desayuno_Aine" class="img-fluid" src="../media/desayunoaine.jpg" id="myimage">
 							</div>
 							<div class="col-12 col-md-6 offset-md-1 ml-md-auto text-left">
 								<h1>Desayuno Aine</h1>
@@ -112,7 +112,7 @@
 					<div class="container d-flex align-items-center" style="min-height:100vh">
 						<div class="row align-items-center">
 							<div class="col-12 col-md-4 offset-md-1 mb-4 mb-md-0">
-								<img alt="desayuno_pinkman" id="pinkman"class="img-fluid" src="../media/desayunopinkman.jpg">
+								<img alt="desayuno_pinkman" id="pinkman"class="img-fluid" src="../media/desayunopinkman.jpg" id="myimage1">
 							</div>
 							<div class="col-12 col-md-6 offset-md-1 ml-md-auto text-left">
 								<h1 id="pinkman">Desayuno Pinkman</h1>
@@ -143,7 +143,7 @@
 					<div class="container d-flex align-items-center" style="min-height:100vh">
 						<div class="row align-items-center">
 							<div class="col-12 col-md-4 offset-md-1 mb-4 mb-md-0">
-								<img alt="desayuno_Don_Hector" class="img-fluid" src="../media/desayunodonhector.jpg">
+								<img alt="desayuno_Don_Hector" class="img-fluid" src="../media/desayunodonhector.jpg" id="myimage">
 							</div>
 							<div class="col-12 col-md-6 offset-md-1 ml-md-auto text-left">
 								<h1>Desayuno Don Hector</h1>
@@ -174,7 +174,7 @@
 					<div class="container d-flex align-items-center" style="min-height:100vh">
 						<div class="row align-items-center">
 							<div class="col-12 col-md-4 offset-md-1 mb-4 mb-md-0">
-								<img alt="desayuno_Jane" class="img-fluid" src="../media/desayunojane.jpg">
+								<img alt="desayuno_Jane" class="img-fluid" src="../media/desayunojane.jpg" id="myimage">
 							</div>
 							<div class="col-12 col-md-6 offset-md-1 ml-md-auto text-left">
 								<h1>Desayuno Jane</h1>
@@ -207,7 +207,7 @@
 					<div class="container d-flex align-items-center" style="min-height:100vh">
 						<div class="row align-items-center">
 							<div class="col-12 col-md-4 offset-md-1 mb-4 mb-md-0">
-								<img alt="desayuno_Hank" class="img-fluid" src="../media/desayunohank.jpg">
+								<img alt="desayuno_Hank" class="img-fluid" src="../media/desayunohank.jpg" id="myimage">
 							</div>
 							<div class="col-12 col-md-6 offset-md-1 ml-md-auto text-left">
 								<h1>Desayuno Hank</h1>
@@ -240,7 +240,7 @@
 					<div class="container d-flex align-items-center" style="min-height:100vh">
 						<div class="row align-items-center">
 							<div class="col-12 col-md-4 offset-md-1 mb-4 mb-md-0">
-								<img alt="desayuno_Saul_Goodman" class="img-fluid" src="../media/desayunosaulgoodman.jpg">
+								<img alt="desayuno_Saul_Goodman" class="img-fluid" src="../media/desayunosaulgoodman.jpg" id="myimage">
 							</div>
 							<div class="col-12 col-md-6 offset-md-1 ml-md-auto text-left">
 								<h1>Desayuno Saul Goodman</h1>
@@ -335,15 +335,20 @@
 
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-	</script>
+	<script src="https://code.jquery.com/jquery-3.4.0.min.js" 
+	integrity="sha384-JUMjoW8OzDJw4oFpWIB2Bu/c6768ObEthBMVSiIx4ruBIEdyNSUQAjJNFqT5pnJ6" 
+crossorigin="anonymous"> </script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
 		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
 	</script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
 		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
 	</script>
+	<script src="../js/zoomsl.min.js"></script>
+	<script>	
+		$('.img-fluid').imagezoomsl({
 
+		});
+	</script>
 </body>
 </html>
