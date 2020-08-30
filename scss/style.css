@@ -486,6 +486,11 @@
           text-decoration: #f5f5f5;
 }
 
+.about__form .btn:hover {
+  color: #fff;
+  background-color: #D39CB6;
+}
+
 .about__zonas {
   margin-top: 1em;
   text-align: center;
@@ -568,6 +573,83 @@
   letter-spacing: 0.1em;
   text-align: center;
   color: #C17196;
+}
+
+.background__form {
+  margin: auto;
+  margin-top: 1.8em;
+  background-image: url(../media/pinkman.png);
+  background-position: center;
+  background-size: contain;
+  width: 100vh;
+  height: 75vh;
+}
+
+.background__form--mision {
+  color: #C17196;
+  display: inline-block;
+  position: relative;
+  background-color: #FFEFAF;
+  font-weight: bold;
+  width: 100%;
+  top: 45%;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  margin: auto;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.background__form .btn__form {
+  margin-top: 1em;
+  text-decoration: none;
+  border: 1px;
+  border-radius: 1em;
+}
+
+#mision {
+  font-size: 24px;
+  color: #C17196;
+}
+
+.btn__form:hover {
+  color: #212529;
+  text-decoration: none;
+  background-color: #dfcd84;
+}
+
+/** Media queries **/
+@media only screen and (max-width: 767px) {
+  .background__form {
+    margin: auto;
+    margin-top: 1.8em;
+    background-image: url(../media/pinkman.png);
+    background-position: center;
+    background-size: contain;
+    width: 100vh;
+    height: 75vh;
+  }
+  .background__form--mision {
+    color: #C17196;
+    display: inline-block;
+    position: relative;
+    background-color: #FFEFAF;
+    font-weight: bold;
+    width: 100%;
+    top: 45%;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    margin: auto;
+    text-align: center;
+    font-size: 1em;
+  }
+  .background__form .btn__form {
+    text-decoration: none;
+    border: 1px;
+    border-radius: 1em;
+  }
 }
 
 @font-face {
