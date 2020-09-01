@@ -805,7 +805,6 @@ section .about__mision--subtitle span {
 
 .about__us img {
   height: 25em;
-  margin-left: 10em;
   -webkit-box-shadow: 10px 30.4px 5.6px -47px rgba(0, 0, 0, 0.359), 10px 50px 16.2px -47px rgba(0, 0, 0, 0.43);
           box-shadow: 10px 30.4px 5.6px -47px rgba(0, 0, 0, 0.359), 10px 50px 16.2px -47px rgba(0, 0, 0, 0.43);
 }
@@ -1051,24 +1050,63 @@ section .about__mision--subtitle span {
   color: #FFEFAF;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .md-mb-30 {
-    margin-bottom: 30px;
+@media only screen and (min-width: 768px) and (max-width: 1030px) {
+  nav {
+    color: #C17196;
+    background-color: #FFEFAF;
+    font-size: 1.3em;
   }
-  .footer__top--segment-one img {
-    height: 8em;
-    margin-top: 6em;
-    margin-bottom: 2em;
-    margin-left: 0em;
+  nav ul {
+    /* include scss */
+    width: 100%;
   }
-  .footer__top li {
-    text-align: center;
+  nav ul:after {
+    content: "";
+    display: block;
+    clear: both;
   }
-  .footer__top--segment-four i {
-    margin-left: 0px;
-    font-size: 1em;
-    display: inline;
+  nav li {
+    font-size: 0.865em;
+    float: left;
+    margin-left: 1em;
   }
+  nav .menu__logo {
+    height: 6em;
+    margin-left: 2em;
+  }
+}
+
+.about__us img {
+  margin-top: 2.5em;
+  margin: 0px auto;
+  width: 70%;
+}
+
+.about__product p {
+  font-size: 0.893em;
+  letter-spacing: 0.04em;
+  color: #FFEFAF;
+}
+
+.md-mb-30 {
+  margin-bottom: 30px;
+}
+
+.footer__top--segment-one img {
+  height: 8em;
+  margin-top: 6em;
+  margin-bottom: 2em;
+  margin-left: 0em;
+}
+
+.footer__top li {
+  text-align: center;
+}
+
+.footer__top--segment-four i {
+  margin-left: 0px;
+  font-size: 1em;
+  display: inline;
 }
 
 @media only screen and (max-width: 767px) {
