@@ -160,6 +160,10 @@ $colors: (
           }
         }
       }
+      .row{
+        margin-right: 0px;
+        margin-left: 0px;
+        }
     }
     .about__divimage{
       background-image: url(../media/bar.png);
@@ -167,27 +171,6 @@ $colors: (
       background-repeat: no-repeat;
       background-size: cover;
       margin-top: 3em;
-  }
-  .about__us{
-    color: $color-primary;
-    img{
-      height: 25em;
-      box-shadow:
-      10px 30.4px 5.6px -47px rgba(0, 0, 0, 0.359),
-      10px 50px 16.2px -47px rgba(0, 0, 0, 0.43);
-    }
-    h2{
-      padding: 0.8rem;
-      font-size: 1.6em;
-      text-align: left;
-      word-spacing: 0.5em;
-    }
-    p{
-      padding: 0.8rem;
-      font-size: 1.6em;
-      text-align: justify;
-      word-spacing: 0.2em;
-    }
   }
 
   .about__product{
@@ -253,8 +236,8 @@ $colors: (
     img{
       margin: 20px;
       display: inline-block;
-      height: 200px;
-      width: 200px;
+      height: 400px;
+      width: 400px;
     }
     span{
       margin-top: 2em;
@@ -272,6 +255,29 @@ $colors: (
       color: #fff;
       background-color: #D39CB6;
       border-color: #D39CB6;
+    }
+  }
+
+    
+  .about__us{
+    color: $color-primary;
+    img{
+      height: 25em;
+      box-shadow:
+      10px 30.4px 5.6px -47px rgba(0, 0, 0, 0.359),
+      10px 50px 16.2px -47px rgba(0, 0, 0, 0.43);
+    }
+    h2{
+      padding: 0.8rem;
+      font-size: 1.6em;
+      text-align: left;
+      word-spacing: 0.5em;
+    }
+    p{
+      padding: 0.8rem;
+      font-size: 1.6em;
+      text-align: justify;
+      word-spacing: 0.2em;
     }
   }
 
@@ -359,7 +365,7 @@ $colors: (
 
    }
 
-   @media only screen and (min-width: 1030px) and (max-width: 1366px) {
+   @media only screen and (min-width: 1030px) and (max-width: 1368px) {
     nav{
       color: $color-primary ;
       background-color: $color-secondary;
@@ -386,7 +392,7 @@ $colors: (
     font-size: 0.893em;
     letter-spacing: 0.04em;
     color: #FFEFAF;
-}
+};
 
 
    @media only screen and (min-width: 768px) and (max-width: 1030px) {
@@ -434,13 +440,13 @@ $colors: (
       margin-left: 0em;
     }
     .footer__top li {
-      text-align: center;
+      text-align: left;
      } 
      .footer__top--segment-four i {
       margin-left: 0px;
       font-size: 1em; 
       display: inline;
-    }
+    };
     
   
   @media only screen and (max-width: 767px) {

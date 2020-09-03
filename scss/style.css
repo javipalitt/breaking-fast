@@ -791,36 +791,17 @@ section .about__mision--subtitle span {
   font-size: 1.5em;
 }
 
+section .row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
 .about__divimage {
   background-image: url(../media/bar.png);
   min-height: 85px;
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 3em;
-}
-
-.about__us {
-  color: #C17196;
-}
-
-.about__us img {
-  height: 25em;
-  -webkit-box-shadow: 10px 30.4px 5.6px -47px rgba(0, 0, 0, 0.359), 10px 50px 16.2px -47px rgba(0, 0, 0, 0.43);
-          box-shadow: 10px 30.4px 5.6px -47px rgba(0, 0, 0, 0.359), 10px 50px 16.2px -47px rgba(0, 0, 0, 0.43);
-}
-
-.about__us h2 {
-  padding: 0.8rem;
-  font-size: 1.6em;
-  text-align: left;
-  word-spacing: 0.5em;
-}
-
-.about__us p {
-  padding: 0.8rem;
-  font-size: 1.6em;
-  text-align: justify;
-  word-spacing: 0.2em;
 }
 
 .about__product {
@@ -897,8 +878,8 @@ section .about__mision--subtitle span {
 .about__destacados img {
   margin: 20px;
   display: inline-block;
-  height: 200px;
-  width: 200px;
+  height: 400px;
+  width: 400px;
 }
 
 .about__destacados span {
@@ -919,6 +900,30 @@ section .about__mision--subtitle span {
   color: #fff;
   background-color: #D39CB6;
   border-color: #D39CB6;
+}
+
+.about__us {
+  color: #C17196;
+}
+
+.about__us img {
+  height: 25em;
+  -webkit-box-shadow: 10px 30.4px 5.6px -47px rgba(0, 0, 0, 0.359), 10px 50px 16.2px -47px rgba(0, 0, 0, 0.43);
+          box-shadow: 10px 30.4px 5.6px -47px rgba(0, 0, 0, 0.359), 10px 50px 16.2px -47px rgba(0, 0, 0, 0.43);
+}
+
+.about__us h2 {
+  padding: 0.8rem;
+  font-size: 1.6em;
+  text-align: left;
+  word-spacing: 0.5em;
+}
+
+.about__us p {
+  padding: 0.8rem;
+  font-size: 1.6em;
+  text-align: justify;
+  word-spacing: 0.2em;
 }
 
 .footer__top {
@@ -1018,7 +1023,7 @@ section .about__mision--subtitle span {
   }
 }
 
-@media only screen and (min-width: 1030px) and (max-width: 1366px) {
+@media only screen and (min-width: 1030px) and (max-width: 1368px) {
   nav {
     color: #C17196;
     background-color: #FFEFAF;
@@ -1100,7 +1105,7 @@ section .about__mision--subtitle span {
 }
 
 .footer__top li {
-  text-align: center;
+  text-align: left;
 }
 
 .footer__top--segment-four i {
