@@ -75,18 +75,22 @@ $colors: (
       font-size: 1.5em;    
       ul{
         @include clearFix; /** include scss **/
-       width: 100%;
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: 0;
+        padding: 0;
       }
 
       li{
-        float: left;   
-        margin-left: 3em;     
+        float: left;      
         font-weight: 600;
       }
       
       .menu__logo{
         height: 6em;  
         margin-left: 6em;      
+        margin-right: 2em;
       }
 
       .nav-link{
@@ -345,7 +349,6 @@ $colors: (
   }
     .about__destacados {
       text-align: center;
-      padding: 1.5rem 2rem;
       img{
         margin: 20px;
         display: inline-block;
@@ -425,11 +428,16 @@ $colors: (
      width: 70%;
    }
   }
-   .about__product p {
-    font-size: 0.893em;
+   .about__product {
+     p{
+    font-size: 0.48em;
     letter-spacing: 0.04em;
     color: #FFEFAF;
 }
+    h5{
+      font-size: 1em;
+    }
+   }
     .md-mb-30 {
       margin-bottom: 30px; 
     }
@@ -502,7 +510,6 @@ $colors: (
   }
     .about__destacados{
       margin-top: 3em;
-      margin-left: 0em;
     }
     section .about__mision--image{
       width: 100%;

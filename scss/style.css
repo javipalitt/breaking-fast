@@ -695,7 +695,15 @@ nav {
 
 nav ul {
   /** include scss **/
-  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+  margin: 0;
+  padding: 0;
 }
 
 nav ul:after {
@@ -706,13 +714,13 @@ nav ul:after {
 
 nav li {
   float: left;
-  margin-left: 3em;
   font-weight: 600;
 }
 
 nav .menu__logo {
   height: 6em;
   margin-left: 6em;
+  margin-right: 2em;
 }
 
 nav .nav-link {
@@ -1004,7 +1012,6 @@ section .row {
   }
   .about__destacados {
     text-align: center;
-    padding: 1.5rem 2rem;
   }
   .about__destacados img {
     margin: 20px;
@@ -1088,9 +1095,13 @@ section .row {
 }
 
 .about__product p {
-  font-size: 0.893em;
+  font-size: 0.48em;
   letter-spacing: 0.04em;
   color: #FFEFAF;
+}
+
+.about__product h5 {
+  font-size: 1em;
 }
 
 .md-mb-30 {
@@ -1163,7 +1174,6 @@ section .row {
   }
   .about__destacados {
     margin-top: 3em;
-    margin-left: 0em;
   }
   section .about__mision--image {
     width: 100%;
