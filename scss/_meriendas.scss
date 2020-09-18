@@ -37,6 +37,53 @@ $color-secondary: #FFEFAF;
         float: left;
         clear: both;
     }
+    .discount1{
+        position: relative;
+        float: left;
+        left: 45px;
+        top: 3px;
+        font-size: 1.3em;
+        text-decoration: line-through;
+    }
+    .discount2{
+        position: relative;
+        float: left;
+        left: 45px;
+        top: 3px;
+        font-size: 1.3em;
+        text-decoration: line-through;
+    }
+    .discount3{
+        position: relative;
+        float: left;
+        left: 45px;
+        top: 20px;
+        text-decoration: line-through;
+    }
+    .discount4{
+        position: relative;
+        float: left;
+        left: 45px;
+        top: 3px;
+        font-size: 1.3em;
+        text-decoration: line-through;
+    }
+    .discount5{
+        position: relative;
+        float: left;
+        left: 45px;
+        top: 3px;
+        font-size: 1.3em;
+        text-decoration: line-through;
+    }
+    .discount6{
+        position: relative;
+        float: left;
+        left: 45px;
+        top: 3px;
+        font-size: 1.3em;
+        text-decoration: line-through;
+    }
 }
 
 .carousel-control-next, .carousel-control-prev {
@@ -106,6 +153,54 @@ $color-secondary: #FFEFAF;
             float: left;
             clear: both;
         }
+        .discount1{
+            position: relative;
+            float: left;
+            left: 205px;
+            top: -54px;
+            font-size: 1em;
+            text-decoration: line-through;
+        }
+        .discount2{
+            position: relative;
+            float: left;
+            left: 205px;
+            top: -54px;
+            font-size: 1em;
+            text-decoration: line-through;
+        }
+        .discount3{
+            position: relative;
+            float: left;
+            left: 205px;
+            top: -54px;
+            font-size: 1em;
+            text-decoration: line-through;
+        }
+        .discount4{
+            position: relative;
+            float: left;
+            left: 205px;
+            top: -54px;
+            font-size: 1em;
+            text-decoration: line-through;
+        }
+        .discount5{
+            position: relative;
+            float: left;
+            left: 205px;
+            top: -54px;
+            font-size: 1em;
+            text-decoration: line-through;
+        }
+        .discount6{
+            position: relative;
+            float: left;
+            left: 205px;
+            top: -54px;
+            font-size: 1em;
+            text-decoration: line-through;
+        }
     }
 }
 
@@ -114,8 +209,9 @@ $color-secondary: #FFEFAF;
         li{
             margin-top: 1em;
             font-size: 1.133em ;
-            color:$color-primary;
+            color:$color-primary;        
         }
+
     }
     .footer__top li{
         font-size: 1em !important;

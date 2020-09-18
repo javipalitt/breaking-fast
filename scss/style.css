@@ -60,6 +60,54 @@
   clear: both;
 }
 
+.carousel__main .discount1 {
+  position: relative;
+  float: left;
+  left: 45px;
+  top: 20px;
+  text-decoration: line-through;
+}
+
+.carousel__main .discount2 {
+  position: relative;
+  float: left;
+  left: 45px;
+  top: 20px;
+  text-decoration: line-through;
+}
+
+.carousel__main .discount3 {
+  position: relative;
+  float: left;
+  left: 45px;
+  top: 20px;
+  text-decoration: line-through;
+}
+
+.carousel__main .discount4 {
+  position: relative;
+  float: left;
+  left: 45px;
+  top: 20px;
+  text-decoration: line-through;
+}
+
+.carousel__main .discount5 {
+  position: relative;
+  float: left;
+  left: 45px;
+  top: 20px;
+  text-decoration: line-through;
+}
+
+.carousel__main .discount6 {
+  position: relative;
+  float: left;
+  left: 45px;
+  top: 10px;
+  text-decoration: line-through;
+}
+
 .carousel-control-next, .carousel-control-prev {
   position: absolute;
   top: 50% !important;
@@ -107,7 +155,7 @@
   }
   .carousel__main a {
     margin-top: 0em;
-    margin-bottom: 1.3em;
+    margin-bottom: 2.5em;
     font-size: 1em;
     color: #f5f5f5;
     background-color: #C17196;
@@ -120,6 +168,48 @@
   }
   .carousel__main .btn {
     margin-left: 2.2em !important;
+  }
+  .carousel__main .discount1 {
+    position: relative;
+    float: left;
+    left: 45px;
+    top: 0px;
+    text-decoration: line-through;
+  }
+  .carousel__main .discount2 {
+    position: relative;
+    float: left;
+    left: 20px;
+    top: 0px;
+    text-decoration: line-through;
+  }
+  .carousel__main .discount3 {
+    position: relative;
+    float: left;
+    left: 215px;
+    top: -70px;
+    text-decoration: line-through;
+  }
+  .carousel__main .discount4 {
+    position: relative;
+    float: left;
+    left: 45px;
+    top: 0px;
+    text-decoration: line-through;
+  }
+  .carousel__main .discount5 {
+    position: relative;
+    float: left;
+    left: 45px;
+    top: 15px;
+    text-decoration: line-through;
+  }
+  .carousel__main .discount6 {
+    position: relative;
+    float: left;
+    left: 45px;
+    top: 0px;
+    text-decoration: line-through;
   }
 }
 
@@ -176,6 +266,59 @@
 .carousel__main--meriendas .btn {
   float: left;
   clear: both;
+}
+
+.carousel__main--meriendas .discount1 {
+  position: relative;
+  float: left;
+  left: 45px;
+  top: 3px;
+  font-size: 1.3em;
+  text-decoration: line-through;
+}
+
+.carousel__main--meriendas .discount2 {
+  position: relative;
+  float: left;
+  left: 45px;
+  top: 3px;
+  font-size: 1.3em;
+  text-decoration: line-through;
+}
+
+.carousel__main--meriendas .discount3 {
+  position: relative;
+  float: left;
+  left: 45px;
+  top: 20px;
+  text-decoration: line-through;
+}
+
+.carousel__main--meriendas .discount4 {
+  position: relative;
+  float: left;
+  left: 45px;
+  top: 3px;
+  font-size: 1.3em;
+  text-decoration: line-through;
+}
+
+.carousel__main--meriendas .discount5 {
+  position: relative;
+  float: left;
+  left: 45px;
+  top: 3px;
+  font-size: 1.3em;
+  text-decoration: line-through;
+}
+
+.carousel__main--meriendas .discount6 {
+  position: relative;
+  float: left;
+  left: 45px;
+  top: 3px;
+  font-size: 1.3em;
+  text-decoration: line-through;
 }
 
 .carousel-control-next, .carousel-control-prev {
@@ -248,6 +391,54 @@
   .carousel__main--meriendas .btn {
     float: left;
     clear: both;
+  }
+  .carousel__main--meriendas .discount1 {
+    position: relative;
+    float: left;
+    left: 205px;
+    top: -54px;
+    font-size: 1em;
+    text-decoration: line-through;
+  }
+  .carousel__main--meriendas .discount2 {
+    position: relative;
+    float: left;
+    left: 205px;
+    top: -54px;
+    font-size: 1em;
+    text-decoration: line-through;
+  }
+  .carousel__main--meriendas .discount3 {
+    position: relative;
+    float: left;
+    left: 205px;
+    top: -54px;
+    font-size: 1em;
+    text-decoration: line-through;
+  }
+  .carousel__main--meriendas .discount4 {
+    position: relative;
+    float: left;
+    left: 205px;
+    top: -54px;
+    font-size: 1em;
+    text-decoration: line-through;
+  }
+  .carousel__main--meriendas .discount5 {
+    position: relative;
+    float: left;
+    left: 205px;
+    top: -54px;
+    font-size: 1em;
+    text-decoration: line-through;
+  }
+  .carousel__main--meriendas .discount6 {
+    position: relative;
+    float: left;
+    left: 205px;
+    top: -54px;
+    font-size: 1em;
+    text-decoration: line-through;
   }
 }
 
