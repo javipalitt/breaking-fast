@@ -23,6 +23,56 @@ $color-secondary: #FFEFAF;
           text-decoration: #f5f5f5;
         }
     }
+    .discount1{
+        position: relative;
+        float: left;
+        bottom: 74px;
+        left: 19em;
+        font-size: 1.3em;
+        font-weight: 700;
+        color: rgb(182, 182, 182);
+        text-decoration: line-through;
+    }
+    .discount2{
+        position: relative;
+        float: left;
+        bottom: 74px;
+        left: 19em;
+        font-size: 1.3em;
+        font-weight: 700;
+        color:  rgb(182, 182, 182);
+        text-decoration: line-through;
+    }
+    .discount3{
+        position: relative;
+        float: left;
+        bottom: 74px;
+        left: 19em;
+        font-size: 1.3em;
+        font-weight: 700;
+        color: rgb(182, 182, 182);
+        text-decoration: line-through;
+    }
+    .discount4{
+        position: relative;
+        float: left;
+        bottom: 74px;
+        left: 19em;
+        font-size: 1.3em;
+        font-weight: 700;
+        color: rgb(182, 182, 182);
+        text-decoration: line-through;
+    }
+    .discount5{
+        position: relative;
+        float: left;
+        bottom: 74px;
+        left: 19em;
+        font-size: 1.3em;
+        font-weight: 700;
+        color: rgb(182, 182, 182);
+        text-decoration: line-through;
+    }   
 
 }
 
@@ -82,5 +132,55 @@ $color-secondary: #FFEFAF;
         .btn{
             margin-left: 2.5em;
         }
+        .discount1{
+            position: relative;
+            float: left;
+            bottom: 71px;
+            left: 13em;
+            font-size: 1em;
+            font-weight: 700;
+            color: rgb(182, 182, 182);
+            text-decoration: line-through;
+        }
+        .discount2{
+            position: relative;
+            float: left;
+            bottom: 71px;
+            left: 13em;
+            font-size: 1em;
+            font-weight: 700;
+            color:  rgb(182, 182, 182);
+            text-decoration: line-through;
+        }
+        .discount3{
+            position: relative;
+            float: left;
+            bottom: 71px;
+            left: 13em;
+            font-size: 1em;
+            font-weight: 700;
+            color: rgb(182, 182, 182);
+            text-decoration: line-through;
+        }
+        .discount4{
+            position: relative;
+            float: left;
+            bottom: 71px;
+            left: 13em;
+            font-size: 1em;
+            font-weight: 700;
+            color: rgb(182, 182, 182);
+            text-decoration: line-through;
+        }
+        .discount5{
+            position: relative;
+            float: left;
+            bottom: 71px;
+            left: 13em;
+            font-size: 1em;
+            font-weight: 700;
+            color: rgb(182, 182, 182);
+            text-decoration: line-through;
+        }   
     }
 }
